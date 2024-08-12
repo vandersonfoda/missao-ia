@@ -50,3 +50,17 @@ button:hover{
     background-color: var(--cor-destaque);
     color: var(--cor-principal);
 }
+/* Adiciona transição suave aos botões */
+button {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+button:hover {
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
+    transform: scale(1.05);
+}
